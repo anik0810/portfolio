@@ -1,0 +1,123 @@
+.services{
+  padding:3rem;
+  padding-bottom: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap:5rem;
+  /* row-gap:5rem; */
+  align-items: center;
+  margin-top: 8rem;
+  background-color: bisque;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+@media (max-width:1020px) {
+  .services{
+    clip-path: none;
+    padding-bottom: 4rem;
+  }
+}
+h1{
+  color: black;
+  font-size: 2.6rem;
+}
+@media (max-width:412px) {
+  h1{
+    font-size: 2rem;
+  }
+}
+span{
+  color: orange;
+}
+.left-services{
+  padding: 2rem;
+  text-align: justify;
+}
+@media (max-width:1050px) {
+  .left-services{
+    text-align: center;
+  }
+  .services{
+    display: flex;
+    justify-content: center;
+  }
+}
+.right-services{
+  padding: 3rem;
+  margin-right: 2rem;
+}
+.swiper {
+  width: 240px;
+  height: 320px;
+}
+
+.swiper-slide {
+  display: flex;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: 500;
+  justify-content: center;
+  
+}
+.swiper-slide:nth-child(1){
+  background-color: aliceblue;
+  color: black;
+}
+.swiper-slide:nth-child(1) span{
+  color: red;
+}
+
+.swiper-slide:nth-child(2){
+  background-color: black;
+  color: white;
+}
+.swiper-slide:nth-child(2) img{
+  width: 8rem;
+}
+.swiper-slide:nth-child(3){
+  /* background: linear-gradient(to top,rgb(1, 1, 40),rgb(1, 1, 93)); */
+  background-color: floralwhite;
+  color: black;
+}
+.swiper-slide:nth-child(4){
+  background-color: rgb(255 232 251);
+  color: black;
+}
+.swiper-slide:nth-child(4) img{
+  width: 5rem;
+  padding-bottom: 1rem;
+}
+.swiper-slide:nth-child(4) span{
+  color: red;
+}
+.swiper-slide:nth-child(5){
+  background-color: #97f4ff;
+  color: black;
+}
+.hire{
+  padding: 9px 25px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0px 5px 25px rgba(250, 230, 133, 0.559);
+  background:linear-gradient(to top,orange,rgb(255, 115, 0)
+  );
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.service{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.service img{
+  width: 6rem;
+}
+.head{
+  padding: 2rem;
+  padding-bottom: 5px;
+}
+.service h span{
+  font-family: Brush Script MT,Brush Script Std,cursive;
+  font-size: 2.2rem;
+}

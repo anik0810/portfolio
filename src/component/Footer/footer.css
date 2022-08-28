@@ -1,0 +1,26 @@
+footer{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    text-align: center;
+}
+.footer .img{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 1rem;
+    align-items: center;
+}
+.img h{
+    font-family: Brush Script MT,Brush Script Std,cursive;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    color: orange;
+}
+.img img{
+    width: 4.5rem;
+}
