@@ -40,7 +40,7 @@ export default function Projects() {
                 <div class="back">
                   <div class="inner">
                     <p><span>Saathi</span><br/> A single platform, where anyone can call their nearest police station,fire breagde,blood bank,hospital with a single click from any geo location.</p>
-                    <button className='live' onClick={() => { window.open('https://adventurous-essence.in/') }}>See Live</button>
+                    <button className='live' onClick={() => { window.open('https://github.com/anik0810/Saathi-react') }}>Source Code</button>
                   </div>
                 </div>
               </div>
@@ -58,7 +58,7 @@ export default function Projects() {
                 <div class="back">
                   <div class="inner">
                     <p><span>Just Click</span><br/>Users can convert their documents and merge pdf files with just a single click securely. Files will be deleted from server after downloading the converted file. </p>
-                    <button className='live' onClick={() => { window.open('https://adventurous-essence.in/') }}>See Live</button>
+                    <button className='live' onClick={() => { window.open('https://github.com/anik0810/Pdf-Converter') }}>Source Code</button>
                   </div>
                 </div>
               </div>
