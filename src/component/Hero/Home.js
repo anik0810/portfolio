@@ -26,10 +26,10 @@ const Home = () => {
               </span>
             </h2>
 
-            <p>It took him a while to realize that everything he decided not to change, he was actually choosing.
-              You bite up because of your lower jaw.
-              Dan ate the clouds like cotton candy.
-              I never knew what hardship looked like until it started raining bowling balls.</p>
+            <p>I'm Anik Dutta from West Bengal,India.Currently, I'm pursuing my B.Tech in Computer Science Engineering at Sister Nivedita University.
+              I have keen interests on Web Development, Cloud Computing and Competitive Programming .
+              In 2022 I've a goal to learn advance Data Structure Algorithm to polish my skills.
+              </p>
 
             <div className="social">
               <a href="https://www.linkedin.com/in/anik-dutta-86526021b/" style={myStyle}><FontAwesomeIcon icon={faLinkedin} /></a>

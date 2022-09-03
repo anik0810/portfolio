@@ -22,8 +22,7 @@ export default function Services() {
       <div data-aos="fade-right" className='left-services' >
         <h1>My Awesome <span>Services</span></h1>
         <br />
-        <p>The fox in the tophat whispered into the ear of the rabbit.
-        </p>
+        <p>I'm a certified developer. Feel free to contact me .</p>
         <br />
        <Link smooth to='#contact'><button className='hire'>Hire Me</button></Link>
       </div>
@@ -82,7 +81,7 @@ export default function Services() {
               <div className='head'>
                 <img src={humble} alt="emoji"/>
               </div>
-              <h><span>24</span>X<span>7</span> <span>S</span>upport</h>
+              <h><span>C</span>ommunication <span>S</span>kill</h>
             </div>
 
           </SwiperSlide>
